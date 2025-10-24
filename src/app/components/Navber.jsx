@@ -4,7 +4,7 @@ const Navber = () => {
     return (
         <div>
             <nav>
-                <ul>
+                <ul className='flex justify-around items-center bg-amber-400 '>
                     <li>Home</li>
                     <li>About</li>
                     <li>Education</li>
