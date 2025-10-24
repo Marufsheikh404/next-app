@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navber = () => {
@@ -5,10 +6,9 @@ const Navber = () => {
         <div>
             <nav>
                 <ul className='flex justify-around items-center bg-amber-400 '>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Education</li>
-                    <li>Footer</li>
+                    <Link href={'/home'}><li>Home</li></Link>
+                    <Link href={'/about'}> <li>About</li></Link>
+                    <Link href={'/education'}> <li>Education</li></Link>
                 </ul>
             </nav>
         </div>
