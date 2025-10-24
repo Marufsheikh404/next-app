@@ -4,7 +4,8 @@ const page = ({params}) => {
     const id = params.id;
     return (
         <div>
-            <p>ID:{id}</p>
+            <h1>page</h1>
+            {id}
         </div>
     );
 };
